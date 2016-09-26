@@ -1,0 +1,5 @@
+export PATH=/usr/local/bin:$PATH
+PATH=$PATH:/usr/local/sbin
+PATH=$PATH:~/.composer/vendor/bin
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
