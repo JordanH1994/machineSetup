@@ -1,5 +1,5 @@
 
-for file in ~/.{profile,path,bash_aliases,exports,git_branch_status,private}; do
+for file in ~/.{profile,path,bash_aliases,git_branch_status}; do
 	[ -r "$file" ] && source "$file"
 	 #echo "loaded file: $file"
 done
