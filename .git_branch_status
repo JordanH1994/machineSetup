@@ -1,6 +1,6 @@
 # get current branch in git repo
 function parse_git_branch() {
-    if  [ ! $(pwd) == *"LocalVM"* ] ; then
+    if  [ ! $(pwd) == *"LocalVM"* ] && [ ! "${BRANCH}" == "" ]; then
         BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
         STAT=`parse_git_dirty`
         echo "[${BRANCH}${STAT}]"
