@@ -18,6 +18,7 @@ alias l='ls -CF'
 alias s="npm start"
 alias i="npm install"
 alias t="npm test"
+alias d="npm run debug"
 
 # git commamands simplified
 alias g='cd ~/git'
@@ -30,7 +31,7 @@ alias grb='git rebase'
 alias gbr='git branch'
 alias gad='git add -A'
 alias gpl='git pull'
-alias gpu="git push origin"
+alias gpu="git push -u origin"
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 alias glg2='git log --date-order --all --graph --name-status --format="%C(green)%H%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 
