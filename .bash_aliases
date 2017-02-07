@@ -46,11 +46,11 @@ alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
-alias e='subl .'                            # edit:         Opens any file in sublime editor default is to open current directory
+alias e='code .'                            # edit:         Opens any file in sublime editor default is to open current directory
 alias f='open -a Finder ./'                 # f:            Opens current directory in MacOS Finder
 alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
-alias eg='subl ~/git'                       # eg:           Edit the entire git directory
+alias eg='code ~/git'                       # eg:           Edit the entire git directory
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------
